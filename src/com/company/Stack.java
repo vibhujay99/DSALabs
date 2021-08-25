@@ -2,9 +2,10 @@ package com.company;
 
 public class Stack {
 
-    int arr[]  = null;
-    int capacity = 5;
-    int top = -1;
+    private int arr[]  = null;
+    private int capacity = 5;
+    private int top = -1;
+
 
     public Stack(){
         this.arr = new int[capacity];
